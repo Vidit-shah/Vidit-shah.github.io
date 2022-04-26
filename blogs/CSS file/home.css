@@ -291,8 +291,11 @@ body.dark .switch::before {
 
 .home {
     position: absolute;
-    width: 500px;
-    margin: auto;
+    top: 0;
+    top: 0;
+    left: 250px;
+    height: auto;
+    width: auto;
     background-color: var(--body-color);
     transition: var(--tran-05);
 
@@ -314,4 +317,3 @@ body.dark .switch::before {
 body.dark .home .text {
     color: var(--text-color);
 }
-
